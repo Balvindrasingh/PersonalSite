@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/90196bfd04.js" crossorigin="anonymous"></script>
+    <style>
+
+</style>
+</head>
+<body>
+    <div id="header">  
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" width="50px"  alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark"  onclick="closemenu()" ></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav> 
+    </div>   
+    <div class="header-text">
+        <p>web designer</p>
+        <h1>Hi! I'm <span>Balvindra</span> singh <br> from India</h1>
+    </div>
+    
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore ducimus 
+                        nam aperiam expedita minus accusamus deserunt impedit,
+                         aliquid vitae repudiandae iure fugiat explicabo ipsum eos recusandae in. Autem, porro maiores.</p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link"   onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+
+                        
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>web development</span><br>web app development</li>
+                                <li><span>web</span><br>website designing</li>
+                                <li><span>web</span><br>developing</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>right now </span><br>web app development</li>
+                                <li><span>2020-2023</span><br>learning </li>
+                                
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>diploma</span><br>computer programming from georgian college</li>
+                                <li><span>senior secondary</span><br>w</li>
+                                <li><span>web</span><br>developing</li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- service -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+               <i class="fa-solid fa-pen"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolorem necessitatibus aliquam, 
+                    reiciendis ducimus cum quas odit commodi odio ab aut? 
+                    Accusamus, vel? Laboriosam eveniet provident ducimus 
+                    assumenda ex vero unde?</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web App  Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem necessitatibus aliquam, 
+                    reiciendis ducimus cum quas odit commodi odio ab aut? 
+                    Accusamus, vel? Laboriosam eveniet provident ducimus assumenda ex vero unde?</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2  >Web App  Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem necessitatibus aliquam, 
+                    reiciendis ducimus cum quas odit commodi odio ab aut? 
+                    Accusamus, vel? Laboriosam eveniet provident ducimus assumenda ex vero unde?</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------- portfolio   ----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project_1.jpg" alt="project 1" />
+                <div class="layer">
+                    <h3>Project Name1</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam quos aspernatur reiciendis aut, dicta similique iusto iure quis architecto, 
+                        sequi ipsum dignissimos doloribus natus laborum tempora. Nihil natus earum nulla?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/project_2.jpg" alt="project 2" />
+                <div class="layer">
+                    <h3>Project Name2</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam quos aspernatur reiciendis aut, dicta similique iusto iure quis architecto, 
+                        sequi ipsum dignissimos doloribus natus laborum tempora. Nihil natus earum nulla?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project_3.jpg" alt="project 3" />
+                <div class="layer">
+                    <h3>Project Name3</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magnam quos aspernatur reiciendis aut, dicta similique iusto iure quis architecto, 
+                        sequi ipsum dignissimos doloribus natus laborum tempora. Nihil natus earum nulla?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!------------------------------contact--------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>balvindersingh0026@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+1(4347)-445-0026</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Balvindra26?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/balvinder_0026?igsh=YmZtcDZ6czR6M3Nv&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/balvindra-singh-b75514274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Balvindrasingh"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/siteCV.pdf" download class="btn btn2"> Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" action="">
+                    <input type="text" name="Name" placeholder=" YourName" required/>
+                    <input type="email" name="Email" placeholder="YourEmail@mail.com" required/>
+                    <textarea name="Message" rows="6"  placeholder="Write your message here..."></textarea>
+                    <button type="submit" class="btn btn2" >Send Message</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+   <p> © Copyright Balvin Singh | All Rights Reserved.<br>
+    This website is made  by Balvin Singh using HTML, CSS and JavaScript.</p>
+</div>
+</div>
+
+
+</div>
+
+
+    <script>
+        //about
+        function opentab(tabname) {
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");  // Assuming 'active-link' is the correct class
+    }
+
+    for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+//
+    </script>
+
+    <!---sidemenu---->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbyrsDbP-W8xhdu0M80y65SoLWaiLshOrCsWAeuaUOO3Az9NvMlUu2Vpd64m3JyKy94/exec>'
+        const form = document.forms['submit-to-google-sheet']
+//msg
+const msg =document.getElementById("msg")
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent!"
+                setTimeout(function () {msg.innerHTML=""
+            },3000);
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
